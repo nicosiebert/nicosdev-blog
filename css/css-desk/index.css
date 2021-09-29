@@ -1,0 +1,31 @@
+*{
+    text-decoration: none;   
+}.body{
+    background: var(--fondo);
+    margin: 0;
+    padding: 0;
+}.header{
+    width: 100vw;
+    height: 60px;
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-logo{
+    width: 200px;
+    height: 100%;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 300px;
+    /* border-radius:100px;
+    background: var(--secondary); */
+
+}
+.header-nav{
+    display: flex;
+}
